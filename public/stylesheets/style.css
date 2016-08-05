@@ -1,74 +1,80 @@
 body {
-  padding-top: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: url("/images/background_gradient.jpg") no-repeat center center;
-  background-size: 100% 100%;
+    padding-top: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: url("/images/background_gradient.jpg") no-repeat center center;
+    background-size: 100% 100%;
 }
 
 .navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    float: none;
+    vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-  text-align: center;
-}
-.facebook {
-  color: #3b5998;
-  margin-right: 12px;
-}
-
-.yelp {
-  color: #c42100;
-  margin-left: 12px;
-}
-
-.footer {
-  text-align: center;
-  padding-top: 20px;
-}
-
-.girl {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  padding: 0px 20px 0px 20px;
-}
-
-.contact-wrap {
-  margin-top: 20px;
-}
-
-.contact-info {
- padding: 15px;
-  background:rgba(255,255,255, 0.3);
+    text-align: center;
 }
 
 h1 {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 .elite {
-  color:#7FFAF7;
+    color: #7FFAF7;
 }
 
 .nails {
-  color: #FAC5DE;
+    color: #FAC5DE;
+}
+
+.girl {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0px 20px 0px 20px;
+}
+
+.contact-first-half {
+    text-align: right;
+}
+
+.contact-wrap {
+    margin-top: 20px;
+}
+
+.contact-info {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.facebook {
+    color: #3b5998;
+    margin-right: 12px;
+}
+
+.yelp {
+    color: #c42100;
+    margin-left: 12px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
 }
 
 .copyright {
-  margin-top: 20px;
-  font-size: 10px;
+    margin-top: 20px;
+    font-size: 10px;
 }
 
 .custom-jumbotron {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 @media screen and (max-width: 320px) {
-  h4 {
-    font-size: 1em !important;
-  }
+    h4 {
+        font-size: 1em !important;
+    }
 }
