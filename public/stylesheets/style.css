@@ -7,12 +7,12 @@ body {
 
 .facebook {
   color: #3b5998;
-  padding-right: 12px;
+  margin-right: 12px;
 }
 
 .yelp {
   color: #c42100;
-  padding-left: 12px;
+  margin-left: 12px;
 }
 
 .footer {
