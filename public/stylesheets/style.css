@@ -73,6 +73,10 @@ h1 {
     padding-bottom: 20px !important;
 }
 
+.main-container {
+    background: rgba(255, 255, 255, 0.3);
+}
+
 @media screen and (max-width: 320px) {
     h4 {
         font-size: 1em !important;

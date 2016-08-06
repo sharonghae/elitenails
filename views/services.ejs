@@ -31,6 +31,34 @@
     </div>
 </nav>
 
+<div class="container">
+    <div class="container-fluid main-container">
+
+        <!-- begin price list -->
+        <h2><%= priceList.listType %></h2>
+        <hr />
+
+        <div class="row">
+            <% priceList.categories.forEach(function(category) { %>
+                <div class="col-md-4" style="float: left;">
+                    <h4><%= category.categoryName %></h4>
+                    <ul class="list-group">
+                        <% category.items.forEach(function(item){ %>
+                        <li class="list-group-item">
+                            <span class="badge">
+                                <%='$' + item.price %>
+                            </span>
+                            <%= item.itemDesc %>
+                        </li>
+                        <% }); %>
+                    </ul>
+                </div>
+            <% }); %>
+        </div>
+
+    </div>
+</div>
+
 <footer class="footer">
     <p>If you like our services, please like us on...</p>
     <a href="https://www.facebook.com/pages/Elite-Nails/127457303988453"><i class="fa fa-facebook-square fa-3x facebook"
