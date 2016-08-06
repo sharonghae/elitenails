@@ -39,8 +39,8 @@
         <hr />
 
         <div class="row">
-            <% priceList.categories.forEach(function(category) { %>
-                <div class="col-md-4" style="float: left;">
+            <div class="col-md-4">
+                <% priceList.categories.forEach(function(category) { %>
                     <h4><%= category.categoryName %></h4>
                     <ul class="list-group">
                         <% category.items.forEach(function(item){ %>
@@ -52,10 +52,41 @@
                         </li>
                         <% }); %>
                     </ul>
-                </div>
-            <% }); %>
-        </div>
+                <% }); %>
+            </div>
 
+            <div class="col-md-4">
+                <% priceList1.categories.forEach(function(category) { %>
+                    <h4><%= category.categoryName %></h4>
+                    <ul class="list-group">
+                        <% category.items.forEach(function(item){ %>
+                        <li class="list-group-item">
+                                <span class="badge">
+                                    <%='$' + item.price %>
+                                </span>
+                            <%= item.itemDesc %>
+                        </li>
+                        <% }); %>
+                    </ul>
+                <% }); %>
+            </div>
+
+            <div class="col-md-4">
+                <% priceList2.categories.forEach(function(category) { %>
+                    <h4><%= category.categoryName %></h4>
+                    <ul class="list-group">
+                        <% category.items.forEach(function(item){ %>
+                        <li class="list-group-item">
+                                <span class="badge">
+                                    <%='$' + item.price %>
+                                </span>
+                            <%= item.itemDesc %>
+                        </li>
+                        <% }); %>
+                    </ul>
+                <% }); %>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -69,8 +100,9 @@
 
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>

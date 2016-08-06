@@ -1,0 +1,113 @@
+{
+  "listType": "Our Services",
+  "categories": [
+    {"categoryId": 2,
+      "categoryName": "Pedicure",
+      "items": [
+        {
+          "itemId": 0,
+          "itemDesc": "Regular Pedicure",
+          "price": 26
+        }, {
+          "itemId": 1,
+          "itemDesc": "Regular Pedicure with Callus Removal",
+          "price": 30
+        }, {
+          "itemId": 2,
+          "itemDesc": "Rose Spa Pedicure",
+          "price": 35
+        }, {
+          "itemId": 3,
+          "itemDesc": "SpearMints Spa Pedicure",
+          "price": 40
+        }, {
+          "itemId": 4,
+          "itemDesc": "Lavender Spa Pedicure",
+          "price": 40
+        }, {
+          "itemId": 5,
+          "itemDesc": "Top Spa Pedicure",
+          "price": 40
+        }, {
+          "itemId": 6,
+          "itemDesc": "Milk & Honey Spa Pedicure",
+          "price": 45
+        }, {
+          "itemId": 7,
+          "itemDesc": "Cucumber Spa Pedicure",
+          "price": 45
+        }, {
+          "itemId": 8,
+          "itemDesc": "Green Tea Spa Pedicure",
+          "price": 45
+        }, {
+          "itemId": 9,
+          "itemDesc": "Tropical Spa Pedicure",
+          "price": 50
+        }, {
+          "itemId": 10,
+          "itemDesc": "Shea Butter Pedicure",
+          "price": 50
+        }, {
+          "itemId": 11,
+          "itemDesc": "The Earth Therapeutics Spa Pedicure",
+          "price": 50
+        }
+      ]
+    }, {
+      "categoryId": 3,
+      "categoryName": "Waxing",
+      "items": [
+        {
+          "itemId": 0,
+          "itemDesc": "Eyebrow/Lip/Chin",
+          "price": "10/8/10"
+        }, {
+          "itemId": 3,
+          "itemDesc": "Full Face",
+          "price": 35
+        }, {
+          "itemId": 4,
+          "itemDesc": "Underarm",
+          "price": 20
+        }, {
+          "itemId": 5,
+          "itemDesc": "Full Arm",
+          "price": "35 up"
+        }, {
+          "itemId": 6,
+          "itemDesc": "Half Arm",
+          "price": "20 up"
+        }, {
+          "itemId": 7,
+          "itemDesc": "Back",
+          "price": "45 up"
+        }, {
+          "itemId": 8,
+          "itemDesc": "Chest",
+          "price": "35 up"
+        }, {
+          "itemId": 9,
+          "itemDesc": "Full Leg",
+          "price": "60 up"
+        }, {
+          "itemId": 10,
+          "itemDesc": "Half Leg",
+          "price": "35 up"
+        }, {
+          "itemId": 11,
+          "itemDesc": "Bikini",
+          "price": "35 up"
+        }, {
+          "itemId": 12,
+          "itemDesc": "Brazilian",
+          "price": "50 up"
+        }, {
+          "itemId": 13,
+          "itemDesc": "Special Full Leg & Bikini",
+          "price": "85 up"
+        }
+      ]
+    }
+  ]
+}

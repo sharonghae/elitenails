@@ -1,0 +1,101 @@
+{
+  "listType": "Our Services",
+  "categories": [
+    {
+      "categoryId": 4,
+      "categoryName": "Facial",
+      "items": [
+        {
+          "itemId": 0,
+          "itemDesc": "Express (30m)",
+          "price": 40
+        },
+        {
+          "itemId": 1,
+          "itemDesc": "Complete (1h)",
+          "price": 60
+        },
+        {
+          "itemId": 2,
+          "itemDesc": "Complete Class (90m)",
+          "price": 90
+        },
+        {
+          "itemId": 3,
+          "itemDesc": "Hot/Cold Stone Facial (90m)",
+          "price": 90
+        },
+        {
+          "itemId": 4,
+          "itemDesc": "Mini-Stone (1h)",
+          "price": 75
+        },
+        {
+          "itemId": 5,
+          "itemDesc": "Shell Facial (1h)",
+          "price": 75
+        }
+      ]
+    }, {
+      "categoryId": 5,
+      "categoryName": "Special For Students (under 18 years old)",
+      "items": [
+        {
+          "itemId": 0,
+          "itemDesc": "Pink & White Full Set",
+          "price": 33
+        },
+        {
+          "itemId": 1,
+          "itemDesc": "Pink & White Fill",
+          "price": 27
+        },
+        {
+          "itemId": 2,
+          "itemDesc": "Pink Fill",
+          "price": 18
+        },
+        {
+          "itemId": 3,
+          "itemDesc": "Acrylic Full Set",
+          "price": 23
+        },
+        {
+          "itemId": 4,
+          "itemDesc": "Acrylic Full Set (+white tip)",
+          "price": 28
+        },
+        {
+          "itemId": 5,
+          "itemDesc": "Acrylic Fill",
+          "price": 15
+        },
+        {
+          "itemId": 6,
+          "itemDesc": "Regular Manicure & Pedicure",
+          "price": 40
+        }
+      ]
+    }, {
+      "categoryId": 6,
+      "categoryName": "(under 12 years old)",
+      "items": [
+        {
+          "itemId": 0,
+          "itemDesc": "Regular Manicure & Pedicure",
+          "price": 30
+        },
+        {
+          "itemId": 1,
+          "itemDesc": "Reg. Manicure",
+          "price": 13
+        },
+        {
+          "itemId": 2,
+          "itemDesc": "Reg. Pedicure",
+          "price": 23
+        }
+      ]
+    }
+  ]
+}

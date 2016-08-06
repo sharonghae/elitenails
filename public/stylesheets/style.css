@@ -68,13 +68,13 @@ h1 {
     font-size: 10px;
 }
 
+.main-container {
+    background: rgba(255, 255, 255, 0.3);
+}
+
 .custom-jumbotron {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-}
-
-.main-container {
-    background: rgba(255, 255, 255, 0.3);
 }
 
 @media screen and (max-width: 320px) {
