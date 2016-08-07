@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var services = require('./routes/services');
 var contact = require('./routes/contact');
+var package = require('./routes/package');
 
 var app = express();
 
@@ -22,10 +23,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(favicon(path.join(__dirname,'public','images','favicon.png')));
 app.use('/', routes);
 app.use('/services', services);
 app.use('/contact', contact);
+app.use('/package', package);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -57,6 +59,5 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-
 
 module.exports = app;
