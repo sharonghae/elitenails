@@ -44,7 +44,7 @@ router.post('/new', function (req, res, next) {
             from: process.env.GMAIL_USER_FULL_NAME,
             to: req.body.email,
             subject: 'Appointment Confirmation',
-            html: '<p>Hello. This e-mail is to confirm your appointment made at ' + new Date() + ' from ' + req.connection.remoteAddress + '.</p>' +
+            html: '<p>Hello. This e-mail is to confirm your appointment made at ' + new Date().toDateString() + ' from ' + req.connection.remoteAddress + '.</p>' +
                 '<p>Please feel free to come by at the requested time. If there are any problems, we will contact you. See you soon!</p>' +
                 '<hr />' +
                 '<p><strong>Name:</strong> ' + req.body.name + '</p>' +
