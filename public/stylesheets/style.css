@@ -1,8 +1,7 @@
 body {
     padding-top: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background: url("/images/background_gradient.jpg") no-repeat center center;
-    background-size: 100% 100%;
+    background-image: linear-gradient(to right, #FAC5DE, #7FFAF7 );
 }
 
 .navbar .navbar-nav {
@@ -27,19 +26,24 @@ h1 {
     color: #FAC5DE;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .girl {
     display: block;
     margin: 0 auto;
+    width: auto;
     max-width: 100%;
     height: auto;
-    padding: 0px 20px 0px 20px;
 }
 
 .contact-first-half {
     text-align: right;
 }
 
-.contact-wrap {
+.section-wrap {
     margin-top: 20px;
 }
 
@@ -60,11 +64,7 @@ h1 {
 
 .footer {
     text-align: center;
-    margin-top: 20px;
-}
-
-.footer a {
-    color: white;
+    margin-top: 45px;
 }
 
 .copyright {
@@ -77,8 +77,7 @@ h1 {
 }
 
 .custom-jumbotron {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+    background-color: #fff;
 }
 
 @media screen and (max-width: 320px) {
@@ -112,5 +111,22 @@ h1 {
 }
 
 .item-2 {
-    background-image: url("/images/milk-honey2.jpg");
+    background-image: url("/images/milk-honey.jpg");
+}
+
+section {
+    margin-top: 45px;
+}
+
+.specials {
+    background-image: url("/images/autumn-leaves.jpg");
+}
+
+.specials h3, .well h4 {
+    color: #449D44
+}
+
+.specials-text {
+    color: #fff;
+    padding: 5px;
 }

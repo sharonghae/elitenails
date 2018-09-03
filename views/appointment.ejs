@@ -6,13 +6,14 @@
 <body>
 <% include partials/header %>
 
-<div class="container main-container">
-    <div class="container-fluid  contact-wrap">
+<div class="container">
+    <div class="container-fluid main-container section-wrap">
 
         <h2>Book a New Appointment</h2>
         <p>
             Booking an appointment is easy.  Just use this form hit submit and you're ready to go!  We **never** store or sell your contact information.
-        </p><br/>
+        </p>
+        <hr>
 
         <% if(errorMessage !== null) { %>
             <div class="alert alert-danger alert-dismissible" role="alert">
