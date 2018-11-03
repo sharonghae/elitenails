@@ -80,18 +80,6 @@ img {
     background-color: #fff;
 }
 
-@media screen and (max-width: 320px) {
-    h4 {
-        font-size: 1em !important;
-    }
-
-    /*.carousel-items {*/
-        /*background-size: cover;*/
-        /*width: 300px !important;*/
-        /*height: 100px !important;*/
-    /*}*/
-}
-
 .carousel-inner img {
     width: 100%; /* Set width to 100% */
     margin: auto;
@@ -119,30 +107,50 @@ section {
 }
 
 .specials {
-    position: relative;
-    text-align: center;
-    color: white;
+    background-image: url("/images/advent-background-bow-1303085.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .well h4 {
     color: #449D44;
 }
 
+.specials-text {
+    color: #fff;
+    padding: 136.5px 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+
+}
+
 .specials-text h2 {
     color: #c42100;
     font-family: 'Mountains of Christmas';
     font-size: 45px;
+    font-weight: 700;
+    text-shadow: 1px 1px whitesmoke;
+}  
+
+
+@media screen and (max-width: 320px) {
+    h4 {
+        font-size: 1em !important;
+    }
+
+    /*.carousel-items {*/
+        /*background-size: cover;*/
+        /*width: 300px !important;*/
+        /*height: 100px !important;*/
+    /*}*/
 }
 
-.specials-text {
-    color: #fff;
-    padding: 5px;
-    font-family: "Comic Sans MS", cursive, sans-serif
-}
 
-.text-overlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (max-width: 768px) {
+    .specials-text {
+        padding: 99px 0;
+    }
 }
