@@ -119,14 +119,30 @@ section {
 }
 
 .specials {
-    background-image: url("/images/autumn-leaves.jpg");
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.specials h3, .well h4 {
-    color: #449D44
+.well h4 {
+    color: #449D44;
+}
+
+.specials-text h2 {
+    color: #c42100;
+    font-family: 'Mountains of Christmas';
+    font-size: 45px;
 }
 
 .specials-text {
     color: #fff;
     padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
