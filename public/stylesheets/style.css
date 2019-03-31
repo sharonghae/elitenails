@@ -107,7 +107,7 @@ section {
 }
 
 .specials {
-    background-image: url("/images/advent-background-bow-1303085.jpg");
+    background-image: url("/images/Easter.jpg");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ section {
     font-family: 'Mountains of Christmas';
     font-size: 45px;
     font-weight: 700;
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 1px 1px black;
 }  
 
 

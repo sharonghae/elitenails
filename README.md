@@ -10,3 +10,10 @@ This application is written in Node.JS with some light jQuery and Twitter Bootst
 * Phone and email verification
 * Move appointment booking to implement MongoDB
 * Enable user confirmation of bookings
+
+##How to Run the App
+
+* Clone the project to your Projects directory.
+* Make changes to your files.
+* Start the app by typing `npm start`
+* Start Chrome, type in "http://localhost:3000/"
